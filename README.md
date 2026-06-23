@@ -3,7 +3,7 @@
 This project provides a Python-based utility to generate high-fidelity synthetic datasets of Electric Vehicle (EV) charging profiles.
 
 ## Purpose
-The primary goal of this project is to provide a controlled, high-volume dataset for training **Machine Learning models for anomaly detection** on the **Edge Impulse** platform. By generating both "clean" charging profiles (CC-CV) and "anomalous" profiles (spikes, drops, etc.), you can create a robust training set for detecting battery or charger malfunctions.
+The primary goal of this project is to provide a controlled, high-volume dataset for training machine learning models for anomaly detection on the Edge Impulse Studio. By generating both "clean" charging profiles (CC-CV) and "anomalous" profiles (spikes, drops, etc.), you can create a robust training set for detecting battery or charger malfunctions.
 
 ## Features
 - **CC-CV Profile Generation**: Simulates the standard Constant Current - Constant Voltage charging behavior.
