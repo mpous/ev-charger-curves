@@ -16,10 +16,23 @@ The primary goal of this project is to provide a controlled, high-volume dataset
 ### 1. Prerequisites
 Ensure you have Python 3 installed on your system.
 
-### 2. Install Dependencies
-Install the required libraries using `pip`:
+### 2. Setup Virtual Environment
+It is recommended to use a virtual environment to manage dependencies:
 ```bash
-pip install numpy pandas
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+# .\venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+Install the required libraries using the provided requirements file:
+```bash
+pip install -r requirements.txt
 ```
 
 ### 3. Running the Generators
